@@ -11,7 +11,7 @@ public class Utilisateur {
     private Statut statut;
     private LocalDateTime dateCreation;
 
-    public Utilisateur(int id, String nom, String email, Role role, Statut statut, LocalDateTime dateCreation) {
+    public Utilisateur(int id, String nom, String email, Role role, Statut statut) {
         this.id = (long) id;
         this.nom = nom;
         this.email = email;
