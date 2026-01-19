@@ -26,5 +26,9 @@ public class InMemoryUtilisateurRepository implements UtilisateurRepository {
                 .findFirst()
                 .orElse(null);
     }
+    @Override
+    public void deleteById(int id) {
+        stockage.removeIf(u -> u.getId() == id);
+    }
 
 }

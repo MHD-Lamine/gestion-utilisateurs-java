@@ -12,4 +12,6 @@ public interface UtilisateurRepository {
 
     Utilisateur findByEmail(String email);
 
+    void deleteById(int id);
+
 }

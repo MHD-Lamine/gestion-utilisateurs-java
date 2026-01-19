@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 
 public class Utilisateur {
 
-    private Long id;
+    private int id;
     private String nom;
     private String email;
     private Role role;
@@ -12,7 +12,7 @@ public class Utilisateur {
     private LocalDateTime dateCreation;
 
     public Utilisateur(int id, String nom, String email, Role role, Statut statut) {
-        this.id = (long) id;
+        this.id = (int) id;
         this.nom = nom;
         this.email = email;
         this.role = role;
@@ -23,11 +23,11 @@ public class Utilisateur {
 
     // Getters and Setters
 
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
