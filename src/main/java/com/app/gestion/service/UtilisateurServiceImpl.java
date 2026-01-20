@@ -7,11 +7,11 @@ import com.app.gestion.exception.ValidationException;
 import com.app.gestion.model.Utilisateur;
 import com.app.gestion.repository.UtilisateurRepository;
 
-public class UtilisateurServiceImp implements UtilisateurService {
+public class UtilisateurServiceImpl implements UtilisateurService {
 
     private final UtilisateurRepository repository;
 
-    public UtilisateurServiceImp(UtilisateurRepository repository) {
+    public UtilisateurServiceImpl(UtilisateurRepository repository) {
         this.repository = repository;
     }
 
