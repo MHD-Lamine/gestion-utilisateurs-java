@@ -125,7 +125,7 @@ Sécurité (authentification)
 
 ## 🧩 ÉTAPE 3 — COMMIT FINAL 🎯
 
-```bash
+bash
 git status
 git add README.md
 git commit -m "add professional README for project documentation"
