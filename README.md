@@ -19,6 +19,7 @@ les bonnes pratiques professionnelles (POO, SOLID, Clean Code).
 
 ## 🧱 Architecture du projet
 
+```
 gestion-utilisateurs-java
 ├── pom.xml
 └── src
@@ -36,7 +37,7 @@ gestion-utilisateurs-java
 └── test
 └── java
 
-
+```
 ---
 
 ## ✨ Fonctionnalités
