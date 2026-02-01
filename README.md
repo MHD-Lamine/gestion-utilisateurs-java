@@ -61,7 +61,7 @@ CREATE TABLE utilisateur (
     statut VARCHAR(20),
     date_creation TIMESTAMP
 );
-
+```
 ▶️ Lancer le projet
 Prérequis
 
